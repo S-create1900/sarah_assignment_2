@@ -23,8 +23,6 @@ public class Assignment2Application {
 //  Prompt user to enter their guess = System,out.println("");  string
 	System.out.println("Welcome, Willing To Try Your Luck?");
 	System.out.println("Pick a number between 1 and 100:");
-//cheating to know random # to check if if/else statements are working correctly &  Put this after final guess
-	System.out.println("Random number is " + randomNumber);
 	
 //  Adding a while loop: do not put the random # generation within the while loop to maintain the same random number between guesses.
 	while(attempts < maxAttempts) {
